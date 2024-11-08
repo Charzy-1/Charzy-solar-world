@@ -1,9 +1,14 @@
 import { arrowRight } from "../assets/icons";
+import { useState } from "react";
+
 import { hero } from "../assets/images";
 import Button from "../Components/Button";
-import { statistics } from "../constants";
+import { shoes, statistics } from "../constants";
+import ShoeCard from "../Components/ShoeCard";
 
 const Hero = () => {
+  const [heroImg, setheroImg] = useState(hero)
+
   return (
     <section
       id="home"
@@ -35,14 +40,25 @@ const Hero = () => {
       </div>
 
       {/* Image Content */}
-      <div className="relative flex-1 flex justify-center items-center xl:m-h-screen max-xl:py-40 bg-primary bg-hero bg-cover bg-center">
+      <div className="relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-primary bg-hero bg-cover bg-center w-full">
         <img 
-          src={hero} 
+          src={heroImg} 
           alt="Solar Battery" 
           width={610}
           height={500}
           className="relative object-contain z-10" 
         />
+
+        <div className="flex sm:gap-6 gap-4 absolute max-sm:-bottom-[5%] sm:-bottom-[12%] sm:left-[12%] max-sm:px-6">
+          {shoes.map((shoe, index) => (
+            <div key={shoe}>
+                <ShoeCard
+                imgURL={shoe} 
+                changeheroImage={(shoe) => setheroImg(shoe)}  
+                heroImg={heroImg} />
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );

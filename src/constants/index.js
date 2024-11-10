@@ -110,15 +110,15 @@ export const services = [
 export const reviews = [
     {
         imgURL: customer1,
-        customerName: 'Morich Brown',
+        customerName: 'Gabriel Okoh',
         rating: 4.5,
-        feedback: "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!"
+        feedback: "The quality and efficiency of the solar system exceeded my expectations. The attention to detail in the installation was top-notch. Highly recommended!"
     },
     {
         imgURL: customer2,
-        customerName: 'Lota Mongeskar',
+        customerName: 'Vera Okotie',
         rating: 4.5,
-        feedback: "The product not only met but exceeded my expectations. I'll definitely be a returning customer!"
+        feedback: "The solar panels not only met but far surpassed my expectations. I’m extremely satisfied with the performance, and I’ll definitely be coming back for more!"
     }
 ];
 

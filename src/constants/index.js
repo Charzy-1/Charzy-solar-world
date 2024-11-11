@@ -127,35 +127,33 @@ export const footerLinks = [
     {
         title: "Products",
         links: [
-            { name: "Air Force 1", link: "/" },
-            { name: "Air Max 1", link: "/" },
-            { name: "Air Jordan 1", link: "/" },
-            { name: "Air Force 2", link: "/" },
-            { name: "Nike Waffle Racer", link: "/" },
-            { name: "Nike Cortez", link: "/" },
+            { name: "Tubular Batteries", link: "#products" },
+            { name: "Lithium batteries", link: "#products" },
+            { name: "Inverter Hybrid PWM", link: "#products" },
+            { name: "Inverter Hybrid MPPT", link: "#products" },
+            { name: "Solar Panels", link: "#products" },
+            { name: "Solar Pumps", link: "#products" },
+            { name: "Charge7 controllers", link: "#products" },
+            { name: "AVR Stabilizers", link: "products" }
         ],
     },
     {
         title: "Help",
         links: [
-            { name: "About us", link: "/" },
-            { name: "FAQs", link: "/" },
-            { name: "How it works", link: "/" },
-            { name: "Privacy policy", link: "/" },
-            { name: "Payment policy", link: "/" },
+            { name: "About us", link: "#about-us" },
+            { name: "FAQs", link: "/" }
         ],
     },
     {
         title: "Get in touch",
         links: [
-            { name: "customer@nike.com", link: "mailto:customer@nike.com" },
-            { name: "+92554862354", link: "tel:+92554862354" },
+            { name: "charles.adikankwu@exultedeagles.com", link: "mailto:chazylites@gmail.com" },
+            { name: "+2348082921633", link: "tel:+2348082921633" },
         ],
     },
 ];
 
 export const socialMedia = [
     { src: facebook, alt: "facebook logo" },
-    { src: twitter, alt: "twitter logo" },
     { src: instagram, alt: "instagram logo" },
 ];

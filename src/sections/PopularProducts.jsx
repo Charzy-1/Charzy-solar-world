@@ -1,5 +1,7 @@
 import { products } from "../constants"
 import PopularProductCard from "../Components/PopularProductCard"
+import Button from "../Components/Button";
+import { arrowRight } from "../assets/icons";
 
 const PopularProducts = () => {
   return (
@@ -11,6 +13,7 @@ const PopularProducts = () => {
         <p className="lg:max-w-lg mt-2 font-montserrat text-slate-gray">
           Experience exceptional quality and innovation with our premium solar solutions...
         </p>
+   
       </div>
 
       <div className="mt-16 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-14">

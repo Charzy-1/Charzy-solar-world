@@ -3,23 +3,21 @@ import Button from "../Components/Button"
 const Subscribe = () => {
   return (
     <section id="contact-us"
-    className="max-container flex justify-between items-center max-lg:flex-col gap-10">
-      <h3 className="font-bold text-center leading-[68px] lg:max-w-md font-palanquin text-4xl">
-        Sign up for <span className="text-coral-red">Updates</span> & Newsletter
+      className="max-container flex flex-col items-center gap-10">
+      
+      {/* Heading */}
+      <h3 className="font-bold text-center leading-tight font-palanquin text-4xl lg:text-4xl sm:text-3xl">
+        Join Our Exciting <span className="text-coral-red">Community</span> for Updates & Newsletter
       </h3>
 
-      {/* imput and button container */}
-      <div className="lg:max-w-[40%] w-full flex items-center max-sm:flex-col gap-5 p-2.5 sm:border sm:border-slate-gray rounded-full">
-        <input type='text'
-        placeholder="subsribeu@exultedeagles.com" className="input" />
-
-        {/* button container */}
-        <div className="flex max-sm:justify-end items-center mas-sm:w-full"> 
-          <Button label='Sign Up' fullWidth />
+      {/* Button container */}
+      <div className="w-full flex justify-center items-center gap-5 p-2.5 max-sm:flex-col">
+        <div className="flex justify-center w-full max-sm:w-auto">
+          <Button label="Join Group" className="text-lg lg:text-lg sm:text-base" />
         </div>
       </div>
     </section>
   )
 }
 
-export default Subscribe
+export default Subscribe;

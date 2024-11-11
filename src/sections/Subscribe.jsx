@@ -13,7 +13,9 @@ const Subscribe = () => {
       {/* Button container */}
       <div className="w-full flex justify-center items-center gap-5 p-2.5 max-sm:flex-col">
         <div className="flex justify-center w-full max-sm:w-auto">
-          <Button label="Join Group" className="text-lg lg:text-lg sm:text-base" />
+          <a href="https://chat.whatsapp.com/LBDmhOKntPB0ezwIDPkiUp" target="_blank" rel="noopener noreferrer">
+            <Button label="Join Group" className="text-lg lg:text-lg sm:text-base" />
+          </a>
         </div>
       </div>
     </section>

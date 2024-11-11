@@ -27,7 +27,10 @@ const Hero = () => {
           maintenance. Say goodbye to power outages and hello to clean,
           sustainable energy for your home and business.
         </p>
-        <Button label="Shop now" iconURL={arrowRight} />
+        <a href="https://wa.me/2348082921633" target="_blank" rel="noopener noreferrer">
+          <Button label="Shop now" iconURL={arrowRight} />
+        </a>
+        
 
         <div className="flex justify-start items-start flex-wrap w-full mt-20 gap-16">
           {statistics.map((stat, index) => (

@@ -1,16 +1,15 @@
 import { copyrightSign } from "../assets/icons";
-import { footerLogo } from "../assets/images";
 import { footerLinks, socialMedia } from "../constants";
 
 const Footer = () => {
   return (
     <footer className='max-container'>
-      <div className='flex justify-between items-start gap-20 flex-wrap max-lg:flex-col'>
-        <div className='flex flex-col items-start'>
+      <div className='flex justify-between items-start gap-20 flex-wrap max-lg:flex-col max-sm:flex-col max-sm:items-center max-sm:text-center'>
+        <div className='flex flex-col items-start max-sm:items-center'>
           <p className='mt-6 text-base leading-7 font-montserrat text-white-400 sm:max-w-sm'>
             Prepare for a brighter future with solar solutions from your nearest Exulted Eagles store. Find the perfect system for your needs and enjoy exclusive rewards!
           </p>
-          <div className='flex items-center gap-5 mt-8'>
+          <div className='flex items-center gap-5 mt-8 justify-center'>
             {socialMedia.map((icon) => (
               <div
                 className='flex justify-center items-center w-12 h-12 bg-white rounded-full'
@@ -22,9 +21,9 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className='flex flex-1 justify-between lg:gap-10 gap-20 flex-wrap'>
+        <div className='flex flex-1 justify-between lg:gap-10 gap-20 flex-wrap max-sm:flex-col max-sm:items-center'>
           {footerLinks.map((section) => (
-            <div key={section.title}>
+            <div key={section.title} className="max-sm:text-center">
               <h4 className='font-montserrat text-2xl leading-normal font-medium mb-6 text-white'>
                 {section.title}
               </h4>

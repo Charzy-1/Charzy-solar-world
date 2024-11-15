@@ -27,7 +27,7 @@ const Hero = () => {
           maintenance. Say goodbye to power outages and hello to clean,
           sustainable energy for your home and business.
         </p>
-        <a href="https://wa.me/2348082921633" target="_blank" rel="noopener noreferrer">
+        <a href="https://wa.me/2348125873097" target="_blank" rel="noopener noreferrer">
           <Button label="Shop now" iconURL={arrowRight} />
         </a>
         

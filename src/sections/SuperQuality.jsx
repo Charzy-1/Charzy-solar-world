@@ -15,14 +15,14 @@ const SuperQuality = () =>
         </h2>
 
         <p className="mt-4 lg:max-w-lg info-text">
-        Exulted Eagles Nigeria limited is the leading backup systems and renewable energy company rightly located in Nigeria with our offices at t, Abuja, Asaba, Bayelsa, Benin, Calabar, Lagos, Port Harcour, Warri ,  etc as well as distribution presence all over the country.
+        Exulted Eagles Nigeria limited is the leading backup systems and renewable energy company rightly located in Nigeria with our offices at Abuja, Asaba, Bayelsa, Benin, Calabar, Lagos, Port Harcour, Warri, Ughelli, Agbor, Onicha, Akure  etc as well as distribution presence all over the country.
         </p>
         <p className="mt-6 lg:max-w-lg info-text">
         Our commitment to detail and excellence guarantees your satisfaction.
         </p>
 
         <div className="mt-11">
-        <a href="https://wa.me/2348082921633" target="_blank" rel="noopener noreferrer">
+        <a href="https://wa.me/2348125873097" target="_blank" rel="noopener noreferrer">
              <Button label="Get Quote" />
           </a> 
         </div>

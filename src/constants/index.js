@@ -148,7 +148,7 @@ export const footerLinks = [
         title: "Get in touch",
         links: [
             { name: "charles.adikankwu@exultedeagles.com", link: "mailto:chazylites@gmail.com" },
-            { name: "+2348082921633", link: "tel:+2348082921633" },
+            { name: "+2348125873097", link: "tel:+2348125873097" },
         ],
     },
 ];

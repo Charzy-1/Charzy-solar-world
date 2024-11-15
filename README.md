@@ -32,7 +32,7 @@ The Exulted Eagles Landing Page provides essential information about our service
 
 
 ## Live Version
-Check out the live version [here](/).
+Check out the live version [here](https://exultedeagles-agbor.netlify.app/).
 
 ### Project Structure
 **src/components:** Contains all reusable React components, including the Navbar, Footer, and Product Cards.

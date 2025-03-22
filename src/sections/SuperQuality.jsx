@@ -15,7 +15,7 @@ const SuperQuality = () =>
         </h2>
 
         <p className="mt-4 lg:max-w-lg info-text">
-        Charzy Solar world in partnership partnership with Exulted Eagles Nigeria limited is the leading backup systems and renewable energy company rightly located in Nigeria with our offices at Abuja, Asaba, Bayelsa, Benin, Calabar, Lagos, Port Harcour, Warri, Ughelli, Agbor, Onicha, Akure  etc as well as distribution presence all over the country.
+        Charzy Solar world in partnership with Exulted Eagles Nigeria limited is the leading backup systems and renewable energy company rightly located in Nigeria with our offices at Abuja, Asaba, Bayelsa, Benin, Calabar, Lagos, Port Harcour, Warri, Ughelli, Agbor, Onicha, Akure  etc as well as distribution presence all over the country.
         </p>
         <p className="mt-6 lg:max-w-lg info-text">
         Our commitment to detail and excellence guarantees your satisfaction.

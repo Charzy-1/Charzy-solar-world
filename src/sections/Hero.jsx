@@ -22,7 +22,7 @@ const Hero = () => {
           <span className="text-coral-red">Solar Solution</span> 
         </h1>
         <p className="font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm">
-          Exulted Eagles is your trusted partner for solar energy solutions,
+          Charzy solar world is your trusted partner for solar energy solutions,
           offering expert sales, seamless installations, and dependable
           maintenance. Say goodbye to power outages and hello to clean,
           sustainable energy for your home and business.

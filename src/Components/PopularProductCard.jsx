@@ -9,7 +9,7 @@ const PopularProductCard = ({ imgURL, name, description }) => {
       
       {/* Customized Button with ArrowRight Icon */}
       <a href="https://wa.me/2348125873097" target="_blank" rel="noopener noreferrer">
-        <button className="bg-coral-red text-white font-semibold py-2 px-4 flex items-center rounded-none shadow-3xl">
+        <button className="bg-coral-red text-white font-semibold py-2 px-4 flex items-center rounded-lg shadow-3xl">
           Shop Now
           <img src={arrowRight} alt="Arrow Right" className="ml-2" /> {/* Positioning the icon to the right of the text */}
         </button>

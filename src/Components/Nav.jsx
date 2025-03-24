@@ -1,5 +1,5 @@
 import { useState, useEffect} from 'react';
-import Exultedlogo from '../assets/images/Exultedlogo.jpeg';
+import Exultedlogo from '../assets/images/Exultedlogo.png';
 import { hamburger, closeIcon } from '../assets/icons';
 import { navLinks } from '../constants';
 

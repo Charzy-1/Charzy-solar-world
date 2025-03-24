@@ -133,7 +133,7 @@ export const footerLinks = [
             { name: "Inverter Hybrid MPPT", link: "#products" },
             { name: "Solar Panels", link: "#products" },
             { name: "Solar Pumps", link: "#products" },
-            { name: "Charge7 controllers", link: "#products" },
+            { name: "Charge controllers", link: "#products" },
             { name: "AVR Stabilizers", link: "products" }
         ],
     },
